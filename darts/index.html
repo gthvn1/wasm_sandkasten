@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Darts scores</title>
+    <script type="module">
+        WebAssembly
+            .instantiateStreaming(fetch("darts.wasm"))
+            .then(obj => {
+                var result = obj.instance.exports.score(0.0, 1.0);
+                console.log(result);
+            });
+
+    </script>
+</head>
+
+<body>
+    Use devtools to check console output
+</body>
+
+</html>
