@@ -7,6 +7,8 @@ In this repo we will put some info about how to debug and run code.
 
 ## Some notes
 
+### darts as example
+
 - To complile web assembly text file (wat) into binary you need to use `wat2wasm`
   from the (web assembly toolkit)[https://github.com/WebAssembly/wabt].
     - Just run `wat2wasm darts.wat -o darts.wasm`
