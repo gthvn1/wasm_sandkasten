@@ -1,0 +1,15 @@
+{
+  "name": "grains",
+  "description": "let's compute number of grains",
+  "author": "me",
+  "type": "module",
+  "private": true,
+  "license": "GPL",
+  "devDependencies": {
+    "@types/node": "^16.18.11",
+    "core-js": "^3.27.1"
+  },
+  "scripts": {
+    "test": "node index.js"
+  }
+}
