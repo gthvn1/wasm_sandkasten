@@ -17,7 +17,6 @@
     (local.set $fn1 (i64.const 1)) ;; F(N-1) = F(1)
     (local.set $fn2 (i64.const 0)) ;; F(N-2) = F(0)
 
-    ;; Enter the loop with i == 2
     (loop $start_loop
       (local.set $tmp (local.get $fn2))
       (local.set $fn2 (local.get $fn1))
